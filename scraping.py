@@ -22,8 +22,8 @@ def scrape_all():
     }
     
 # Stop webdriver and return data
-browser.quit()
-return data
+    browser.quit()
+    return data
 
 def mars_news(browser):
     
@@ -93,13 +93,12 @@ def mars_facts():
     # Assign columns and set index of dataframe
     df.columns=['Description', 'Mars', 'Earth']
     df.set_index('Description', inplace=True)
-
     # Convert dataframe into HTML format, add bootstrap
     return df.to_html(classes="table table-striped")
 
 # Stop webdriver and return data
-   # browser.quit()
-   # return data
+#    browser.quit()
+#    return data
 
 if __name__ == "__main__":
     # if running as script, print scraped data
