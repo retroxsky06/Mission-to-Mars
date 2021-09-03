@@ -20,6 +20,11 @@ The project has three deliverables:
 - Webdriver-Manager
 
 
+## Scraping Mars Data
+
+## Updating Mission to Mars Website
+
+### Mobile Device
 
 ```
 To verify that the mars_app database exists, run the following command in your terminal (mongo environment active):
