@@ -2,9 +2,9 @@
 Module 10 Challenge
 
 ## Project Overview
-The purpose of this project 
+The purpose of this project is to build a web application that will scrape the latest Mars news and updates from several websites with the click of a button.  The retrieved data will be stored in a NoSQL database, and will then be presented in a HTML webpage.
 
-The project deliverables include:
+The project has three deliverables:
 - Scrape High-Resolution Mars Hemisphere Images and Titles
 - Update the Web App with Mars Hemisphere Images and Titles
 - Add Bootstrap 3 Components
