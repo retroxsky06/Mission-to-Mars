@@ -4,6 +4,11 @@ Module 10 Challenge
 ## Project Overview
 The purpose of this project 
 
+The project deliverables include:
+- Scrape High-Resolution Mars Hemisphere Images and Titles
+- Update the Web App with Mars Hemisphere Images and Titles
+- Add Bootstrap 3 Components
+
 
 ## Software
 - Python 3.8
