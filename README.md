@@ -23,7 +23,7 @@ By clicking the "Scrape New Data" button, the Mission to Mars HTML webpage will 
 
 Once the scraping code is developed, the app.py is run, which enables the extracted data to be stored in MongoDB.  In order for the codes to run properly, a mars_app database must exist to store the information.  
 ```
-To verify that the mars_app database exists, run the following command in your terminal (mongo environment active):
+To verify that the mars_app database exists, run the following command in your terminal (make sure mongo environment is active):
 > show dbs
 ```
 #### Fig 1. mars_app database
@@ -40,7 +40,7 @@ To further customize the webpage, Bootstrap 3 components were added, such as mod
 #### Fig 2. Mars Hemispheres displayed horizontally
 ![fig2](https://github.com/retroxsky06/Mission-to-Mars/blob/main/Mars_hemispheres.png)
 
-### Mobile Responsive Web Application
+### Mobile Responsive Webpage
 As shown below, the Mission to Mars webpage is also optimized for mobile devices.
 
 #### Fig 3. Webpage as displayed on an iPhone X
