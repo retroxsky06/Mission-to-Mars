@@ -29,7 +29,7 @@ To verify that the mars_app database exists, run the following command in your t
 #### Fig 1. mars_app database
 ![fig1](https://github.com/retroxsky06/Mission-to-Mars/blob/main/mongo_mars_app.png)
 
-To view an example of the Mission to Mars HTML webpage, [click here](https://github.com/retroxsky06/Mission-to-Mars/blob/main/Mars_site.png)
+To view an example of the Mission to Mars webpage, [click here](https://github.com/retroxsky06/Mission-to-Mars/blob/main/Mars_site.png)
 
 ## Updating Mission to Mars Webpage
 To further customize the webpage, Bootstrap 3 components were added, such as modifying the Mars hemisphere images to be displayed horizontally when on a desktop, and bolding the font on the "Scrape New Data" button.  The codes used for the modifications are displayed below: 
