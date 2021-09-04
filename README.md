@@ -22,17 +22,13 @@ The project has three deliverables:
 By clicking the "Scrape New Data" button, the Mission to Mars HTML webpage will retrieve the latest facts, news, and images about Mars.  Information is gathered from the following websites: NASA Mars News, Jet Propulsion Laboratory's Space Images, Galaxy Facts, and Astropedia. The scraping code used for this project can be found in the python document, scraping.py.
 
 Once the scraping code is developed, the app.py is run, which enables the extracted data to be stored in MongoDB.  In order for the codes to run properly, a mars_app database must exist to store the information.  
-
 ```
 To verify that the mars_app database exists, run the following command in your terminal (mongo environment active):
 > show dbs
 ```
 #### Fig 1. mars_app database
-
-
+![fig1](https://github.com/retroxsky06/Mission-to-Mars/blob/main/mongo_mars_app.png)
 To view an example of the Mission to Mars HTML webpage, [click here](https://github.com/retroxsky06/Mission-to-Mars/blob/main/Mars_site.png)
-
-
 
 ## Updating Mission to Mars Webpage
 To further customize the webpage, Bootstrap 3 components were added, such as modifying the Mars hemisphere images to be displayed horizontally when on a desktop, and bolding the font on the "Scrape New Data" button.  The codes used for the modifications are displayed below: 
@@ -46,9 +42,9 @@ To further customize the webpage, Bootstrap 3 components were added, such as mod
 ### Mobile Responsive Web Application
 As shown below, the Mission to Mars webpage is also optimized for mobile devices.
 
-
 #### Fig 3. Webpage as displayed on an iPhone X
-![fig3]
+![fig3](https://github.com/retroxsky06/Mission-to-Mars/blob/main/Mobile_responsive.png)
+
 
 
 
