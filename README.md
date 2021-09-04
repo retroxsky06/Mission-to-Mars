@@ -19,7 +19,7 @@ The project has three deliverables:
 - Webdriver-Manager
 
 ## Scraping Mars Data
-By clicking the "Scrape New Data" button, the Mission to Mars HTML webpage will retrieve the latest facts, news, and images about Mars.  Information is gathered from the following websites: [link to NASA Mars News](https://redplanetscience.com/), Jet Propulsion Laboratory's Space Images, Galaxy Facts, and Astropedia. The scraping code used for this project can be found in the python document, scraping.py.
+By clicking the "Scrape New Data" button, the Mission to Mars HTML webpage will retrieve the latest facts, news, and images about Mars.  Information is gathered from the following websites: [NASA Mars News](https://redplanetscience.com/), [Jet Propulsion Laboratory's Space Images](https://spaceimages-mars.com/), [Galaxy Facts](https://galaxyfacts-mars.com/), and [Astropedia](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars). The scraping code used for this project can be found in the python document, scraping.py.
 
 Once the scraping code is developed, the app.py is run, which enables the extracted data to be stored in MongoDB.  In order for the codes to run properly, a mars_app database must exist to store the information.  
 ```
